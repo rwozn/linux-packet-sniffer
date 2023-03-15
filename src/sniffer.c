@@ -493,7 +493,7 @@ if(!inet_ntop(AF_INET, &header->FIELD, STR, sizeof STR))\
    return false;\
 }
 
-   // 16 bajtów
+   // 16 bytes
    char sourceIP[INET_ADDRSTRLEN];
    NTOP(saddr, sourceIP)
 
@@ -670,7 +670,7 @@ int handleCommandLineArguments(int argc, char* argv[])
 {
    if(argc < 2)
    {
-      printf("Usage: %s <network interface name\n", argv[0]);
+      printf("Usage: %s <network interface name>\n", argv[0]);
 
       return -1;
    }
