@@ -14,7 +14,7 @@ Demo supports 15 protocols:
           - POP3
           - SMTP
           - TELNET
-      - UDP
-        - DHCP
-        - DNS
-        - ECHO
+        - UDP
+          - DHCP
+          - DNS
+          - ECHO
